@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 77, 77);
+}
+
+.next-btn{
+border: none;
+font-size: 20px;
+background-color: white;
+padding: 5px;
+margin-top: 10px;
+cursor: pointer;
+}
+.divv{
+margin-left: 15px;
+margin-right: 15px;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+position: absolute;
+bottom: 0;
+
+}
+@keyframes nully{
+    from{}
+    to{}
+}
+@keyframes next {
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+    /* from{opacity: 0;}
+    to{opacity: 1;} */
+    /* from {width: 0px;}
+    to{width: 100%;} */
+}
+#back-button{
+    margin: 15px;
+    margin-top: 10px;
+    width: 65%;
+    border-radius: 3px;
+    transition: 0.2s;
+    color: rgb(74, 74, 74);
+    padding: 10px;
+    border: none;
+    font-size: 50px;
+}
+.outer-div{
+    display: flex;
+    justify-content: center;
+}
+.divv button{
+    cursor: pointer;
+    background-color: rgb(181, 181, 181);
+    width:38vw !important;
+    font-size: 30px !important;
+    box-shadow: 0px 0px 5px black;
+}
+#button{
+    margin: 15px;
+    margin-top: 10px;
+    width: 65%;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+#button:active {
+box-shadow: 0px 0px 1px grey;
+}
+.fa-arrow-right{
+    color: rgb(74, 74, 74);
+    padding: 10px;
+    border: none;
+    background-color: white;
+    font-size: 50px;
+}
+.data-container{
+    background-color: white;
+    border-radius: 5px;
+    /* box-shadow: 0pc 0pc 4px grey; */
+    height: 80vh;
+    display: none;
+    /* animation: next 2s linear; */
+    margin: 20px;
+    text-align: center;
+}
+.data-container h4{
+    padding-top: 15px;
+}
+.data-container h5 {
+    margin: 0;
+}
+.data-container h6{
+    margin: 0px;
+    padding: 0px;
+}
+.data-container p{
+    color: grey;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.data-container h3{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.data-container a{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.lower-data{
+    margin-top: 7%;
+}
+@media(max-width: 600px) {
+    .data-container p {
+        font-size: 15px;
+    }
+    .data-container a{
+        font-size: 12px;
+    }
+    .data-container{
+        height: 70vh;
+    }
+#img{
+    max-width: 300px !important;
+    max-height: 200px !important;
+    border-color: green;
+}
+
+}
+#img{
+    border: solid;
+    border-width: 2px;
+    border-color: grey;
+    max-width: 550px;
+    max-height: 300px;
+    border-radius: 5px;
+}
